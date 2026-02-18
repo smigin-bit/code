@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Главная страница — Современный лендинг</title>
+  <meta name="description" content="Современный лендинг с акцентом на конверсию и чистый дизайн." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-gradient"></div>
+
+  <header class="header">
+    <div class="container header__inner">
+      <div class="logo">
+        <span class="logo__mark"></span>
+        <span class="logo__text">BrandName</span>
+      </div>
+
+      <nav class="nav">
+        <a href="#features" class="nav__link">Преимущества</a>
+        <a href="#how" class="nav__link">Как это работает</a>
+        <a href="#pricing" class="nav__link">Тарифы</a>
+        <a href="#contact" class="nav__link">Контакты</a>
+      </nav>
+
+      <div class="header__actions">
+        <button class="btn btn--ghost">Войти</button>
+        <button class="btn btn--primary">Попробовать бесплатно</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <span class="hero__badge">Новый уровень вашего продукта</span>
+          <h1 class="hero__title">
+            Красивый и продуманный лендинг,
+            <span class="hero__title-gradient">который конвертирует</span>
+          </h1>
+          <p class="hero__subtitle">
+            Покажите ценность продукта за первые секунды. Чистый дизайн, понятная структура и акцент на вашем
+            предложении помогают превратить посетителей в клиентов.
+          </p>
+
+          <div class="hero__actions">
+            <button class="btn btn--primary btn--lg">Начать сейчас</button>
+            <button class="btn btn--ghost btn--lg">Смотреть демо</button>
+          </div>
+
+          <div class="hero__meta">
+            <div class="hero__meta-item">
+              <span class="hero__meta-value">+42%</span>
+              <span class="hero__meta-label">к конверсии лендинга</span>
+            </div>
+            <div class="hero__meta-item">
+              <span class="hero__meta-value">7 дней</span>
+              <span class="hero__meta-label">до запуска готовой страницы</span>
+            </div>
+            <div class="hero__meta-item">
+              <span class="hero__meta-value">24/7</span>
+              <span class="hero__meta-label">поддержка и сопровождение</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__visual">
+          <div class="card card--primary">
+            <div class="card__header">
+              <span class="card__label">Аналитика</span>
+              <span class="card__dot card__dot--green"></span>
+            </div>
+            <div class="card__body">
+              <p class="card__title">Рост конверсии</p>
+              <div class="card__chart">
+                <span class="card__bar card__bar--1"></span>
+                <span class="card__bar card__bar--2"></span>
+                <span class="card__bar card__bar--3"></span>
+                <span class="card__bar card__bar--4"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card card--secondary">
+            <p class="card__title">Автоматические A/B‑тесты</p>
+            <p class="card__text">
+              Система сама подберёт лучшую связку заголовков, CTA и блоков, чтобы увеличить эффективность лендинга.
+            </p>
+          </div>
+
+          <div class="hero__floating">
+            <div class="pill">
+              <span class="pill__dot"></span>
+              <span class="pill__text">Адаптивный дизайн под все устройства</span>
+            </div>
+            <div class="pill pill--glass">
+              <span class="pill__text">Оптимизировано под SEO и скорость загрузки</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="section" id="features">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Что делает лендинг эффективным</h2>
+          <p class="section__subtitle">
+            Мы продумали структуру страницы так, чтобы пользователь быстро понял выгоду и сделал целевое действие.
+          </p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="feature-card">
+            <div class="feature-card__icon feature-card__icon--accent">01</div>
+            <h3 class="feature-card__title">Сильный первый экран</h3>
+            <p class="feature-card__text">
+              Ясный оффер, подкреплённый визуалом и социальным доказательством, чтобы зацепить пользователя с первых
+              секунд.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-card__icon feature-card__icon--blue">02</div>
+            <h3 class="feature-card__title">Логичная структура</h3>
+            <p class="feature-card__text">
+              Блоки выстроены в понятную историю: проблема — решение — выгоды — социальное доказательство — CTA.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-card__icon feature-card__icon--purple">03</div>
+            <h3 class="feature-card__title">Чистый визуал</h3>
+            <p class="feature-card__text">
+              Минималистичный дизайн, акцентный цвет и аккуратная типографика без лишнего визуального шума.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="section section--alt" id="how">
+      <div class="container section__split">
+        <div class="section__content">
+          <h2 class="section__title">Как это работает</h2>
+          <p class="section__subtitle">
+            Всего три шага, чтобы получить готовый лендинг под вашу задачу — от сбора информации до запуска трафика.
+          </p>
+
+          <ol class="steps">
+            <li class="steps__item">
+              <span class="steps__bullet">1</span>
+              <div>
+                <h3 class="steps__title">Бриф и прототип</h3>
+                <p class="steps__text">
+                  Формируем позиционирование и собираем ключевые смыслы. На основе этого создаём прототип будущей
+                  страницы.
+                </p>
+              </div>
+            </li>
+            <li class="steps__item">
+              <span class="steps__bullet">2</span>
+              <div>
+                <h3 class="steps__title">Дизайн и верстка</h3>
+                <p class="steps__text">
+                  Разрабатываем адаптивный дизайн, реализуем анимации и собираем страницу на чистом и быстром коде.
+                </p>
+              </div>
+            </li>
+            <li class="steps__item">
+              <span class="steps__bullet">3</span>
+              <div>
+                <h3 class="steps__title">Запуск и оптимизация</h3>
+                <p class="steps__text">
+                  Подключаем аналитику, запускаем трафик и оптимизируем конверсию по данным первых недель.
+                </p>
+              </div>
+            </li>
+          </ol>
+        </div>
+
+        <div class="section__visual">
+          <div class="glass-panel">
+            <p class="glass-panel__label">Предпросмотр лендинга</p>
+            <div class="glass-panel__screen">
+              <div class="glass-panel__topbar">
+                <span class="glass-panel__dot"></span>
+                <span class="glass-panel__dot glass-panel__dot--yellow"></span>
+                <span class="glass-panel__dot glass-panel__dot--green"></span>
+              </div>
+              <div class="glass-panel__content">
+                <div class="glass-panel__hero"></div>
+                <div class="glass-panel__lines">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <p class="glass-panel__note">
+              Все страницы создаются под ваши задачи и бренд‑гайд.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="section" id="pricing">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Прозрачные тарифы</h2>
+          <p class="section__subtitle">
+            Выберите формат, который подходит вашему проекту сейчас. При необходимости тариф можно масштабировать.
+          </p>
+        </div>
+
+        <div class="grid grid--3 pricing">
+          <article class="pricing-card">
+            <h3 class="pricing-card__name">Старт</h3>
+            <p class="pricing-card__price">от 29 000 ₽</p>
+            <p class="pricing-card__tagline">Для теста гипотез и MVP.</p>
+            <ul class="pricing-card__list">
+              <li>1 экран + базовые блоки</li>
+              <li>Адаптив под мобильные</li>
+              <li>Базовая настройка аналитики</li>
+            </ul>
+            <button class="btn btn--ghost btn--full">Выбрать тариф</button>
+          </article>
+
+          <article class="pricing-card pricing-card--highlight">
+            <div class="pricing-card__badge">Рекомендуем</div>
+            <h3 class="pricing-card__name">Бизнес</h3>
+            <p class="pricing-card__price">от 59 000 ₽</p>
+            <p class="pricing-card__tagline">Оптимальное решение для продукта.</p>
+            <ul class="pricing-card__list">
+              <li>Полноценный лендинг до 8 блоков</li>
+              <li>SEO‑оптимизация и высокая скорость</li>
+              <li>Настройка A/B‑тестов и аналитики</li>
+            </ul>
+            <button class="btn btn--primary btn--full">Заказать разработку</button>
+          </article>
+
+          <article class="pricing-card">
+            <h3 class="pricing-card__name">Индивидуально</h3>
+            <p class="pricing-card__price">по запросу</p>
+            <p class="pricing-card__tagline">Под сложные и нестандартные задачи.</p>
+            <ul class="pricing-card__list">
+              <li>Глубокая аналитика и стратегия</li>
+              <li>Интеграции и личный кабинет</li>
+              <li>Долгосрочное сопровождение</li>
+            </ul>
+            <button class="btn btn--ghost btn--full">Обсудить проект</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section section--alt" id="contact">
+      <div class="container section__split">
+        <div class="section__content">
+          <h2 class="section__title">Готовы обсудить ваш лендинг?</h2>
+          <p class="section__subtitle">
+            Оставьте контакт, и мы вернёмся с предложением по структуре и стоимости в течение рабочего дня.
+          </p>
+
+          <ul class="contact-list">
+            <li><span>Почта</span><a href="mailto:hello@example.com">hello@example.com</a></li>
+            <li><span>Телеграм</span><a href="#">@your_nickname</a></li>
+            <li><span>Телефон</span><a href="tel:+79990000000">+7 (999) 000‑00‑00</a></li>
+          </ul>
+        </div>
+
+        <div class="section__visual">
+          <form class="form">
+            <div class="form__row">
+              <div class="form__field">
+                <label for="name">Имя</label>
+                <input id="name" type="text" placeholder="Как к вам обращаться" />
+              </div>
+              <div class="form__field">
+                <label for="company">Компания</label>
+                <input id="company" type="text" placeholder="Название компании или проекта" />
+              </div>
+            </div>
+
+            <div class="form__field">
+              <label for="email">Email</label>
+              <input id="email" type="email" placeholder="example@company.com" />
+            </div>
+
+            <div class="form__field">
+              <label for="message">Кратко о задаче</label>
+              <textarea id="message" rows="4" placeholder="Опишите продукт и цель лендинга"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn--primary btn--full">Получить предложение</button>
+            <p class="form__note">
+              Нажимая на кнопку, вы соглашаетесь с обработкой персональных данных.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__left">
+        <div class="logo">
+          <span class="logo__mark"></span>
+          <span class="logo__text">BrandName</span>
+        </div>
+        <p class="footer__copy">© 2026 BrandName. Все права защищены.</p>
+      </div>
+      <div class="footer__right">
+        <a href="#top" class="footer__link">Наверх</a>
+        <a href="#" class="footer__link">Политика конфиденциальности</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
