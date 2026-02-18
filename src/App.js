@@ -322,7 +322,7 @@ function App() {
                 </li>
                 <li>
                   <span>Телеграм</span>
-                  <a href="#">{'@your_nickname'}</a>
+                  <a href="@s.migin">{'@your_nickname'}</a>
                 </li>
                 <li>
                   <span>Телефон</span>
@@ -379,7 +379,7 @@ function App() {
             <a href="#top" className="footer__link">
               Наверх
             </a>
-            <a href="#" className="footer__link">
+            <a href="/privacy" className="footer__link">
               Политика конфиденциальности
             </a>
           </div>
